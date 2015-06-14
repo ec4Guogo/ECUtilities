@@ -14,6 +14,8 @@
 		07959D631B2DC3A900F63F1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07959D621B2DC3A900F63F1F /* Images.xcassets */; };
 		07959D661B2DC3A900F63F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07959D641B2DC3A900F63F1F /* LaunchScreen.xib */; };
 		07959D721B2DC3A900F63F1F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D711B2DC3A900F63F1F /* DemoTests.m */; };
+		07959D7F1B2DC4B700F63F1F /* NSString+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D7E1B2DC4B700F63F1F /* NSString+EC.m */; };
+		07959D821B2DC4D400F63F1F /* UILabel+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D811B2DC4D400F63F1F /* UILabel+EC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		07959D6B1B2DC3A900F63F1F /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07959D701B2DC3A900F63F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07959D711B2DC3A900F63F1F /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		07959D7D1B2DC4B700F63F1F /* NSString+EC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EC.h"; sourceTree = "<group>"; };
+		07959D7E1B2DC4B700F63F1F /* NSString+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EC.m"; sourceTree = "<group>"; };
+		07959D801B2DC4D400F63F1F /* UILabel+EC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+EC.h"; sourceTree = "<group>"; };
+		07959D811B2DC4D400F63F1F /* UILabel+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,8 @@
 		07959D7B1B2DC40900F63F1F /* FoundationCategories */ = {
 			isa = PBXGroup;
 			children = (
+				07959D7D1B2DC4B700F63F1F /* NSString+EC.h */,
+				07959D7E1B2DC4B700F63F1F /* NSString+EC.m */,
 			);
 			name = FoundationCategories;
 			path = ../FoundationCategories;
@@ -132,6 +140,8 @@
 		07959D7C1B2DC40900F63F1F /* UIKitCategories */ = {
 			isa = PBXGroup;
 			children = (
+				07959D801B2DC4D400F63F1F /* UILabel+EC.h */,
+				07959D811B2DC4D400F63F1F /* UILabel+EC.m */,
 			);
 			name = UIKitCategories;
 			path = ../UIKitCategories;
@@ -240,6 +250,8 @@
 				07959D5E1B2DC3A900F63F1F /* ViewController.m in Sources */,
 				07959D5B1B2DC3A900F63F1F /* AppDelegate.m in Sources */,
 				07959D581B2DC3A900F63F1F /* main.m in Sources */,
+				07959D821B2DC4D400F63F1F /* UILabel+EC.m in Sources */,
+				07959D7F1B2DC4B700F63F1F /* NSString+EC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
