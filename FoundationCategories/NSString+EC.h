@@ -10,4 +10,11 @@
 
 @interface NSString (EC)
 
+/**
+ *  是否为有效的Email地址
+ *
+ *  @return 是否有效
+ */
+- (BOOL)isValidEmail;
+
 @end
