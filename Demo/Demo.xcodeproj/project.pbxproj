@@ -18,6 +18,8 @@
 		07959D721B2DC3A900F63F1F /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D711B2DC3A900F63F1F /* DemoTests.m */; };
 		07959D7F1B2DC4B700F63F1F /* NSString+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D7E1B2DC4B700F63F1F /* NSString+EC.m */; };
 		07959D821B2DC4D400F63F1F /* UILabel+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D811B2DC4D400F63F1F /* UILabel+EC.m */; };
+		07D134B01B48422A00B2B471 /* UIViewController+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D134AF1B48422A00B2B471 /* UIViewController+EC.m */; };
+		07D134B61B4842AC00B2B471 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D134B51B4842AC00B2B471 /* NSString+Check.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		07959D7E1B2DC4B700F63F1F /* NSString+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EC.m"; sourceTree = "<group>"; };
 		07959D801B2DC4D400F63F1F /* UILabel+EC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+EC.h"; sourceTree = "<group>"; };
 		07959D811B2DC4D400F63F1F /* UILabel+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EC.m"; sourceTree = "<group>"; };
+		07D134AE1B48422A00B2B471 /* UIViewController+EC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EC.h"; sourceTree = "<group>"; };
+		07D134AF1B48422A00B2B471 /* UIViewController+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EC.m"; sourceTree = "<group>"; };
+		07D134B41B4842AC00B2B471 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		07D134B51B4842AC00B2B471 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +144,8 @@
 			children = (
 				07959D7D1B2DC4B700F63F1F /* NSString+EC.h */,
 				07959D7E1B2DC4B700F63F1F /* NSString+EC.m */,
+				07D134B41B4842AC00B2B471 /* NSString+Check.h */,
+				07D134B51B4842AC00B2B471 /* NSString+Check.m */,
 				07038AE71B2F198E00C0BB00 /* UIImage+EC.h */,
 				07038AE81B2F198E00C0BB00 /* UIImage+EC.m */,
 				07038AEA1B2F19A400C0BB00 /* NSDate+EC.h */,
@@ -152,6 +160,8 @@
 			children = (
 				07959D801B2DC4D400F63F1F /* UILabel+EC.h */,
 				07959D811B2DC4D400F63F1F /* UILabel+EC.m */,
+				07D134AE1B48422A00B2B471 /* UIViewController+EC.h */,
+				07D134AF1B48422A00B2B471 /* UIViewController+EC.m */,
 			);
 			name = UIKitCategories;
 			path = ../UIKitCategories;
@@ -257,11 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D134B01B48422A00B2B471 /* UIViewController+EC.m in Sources */,
 				07959D5E1B2DC3A900F63F1F /* ViewController.m in Sources */,
 				07959D5B1B2DC3A900F63F1F /* AppDelegate.m in Sources */,
 				07959D581B2DC3A900F63F1F /* main.m in Sources */,
 				07038AE91B2F198E00C0BB00 /* UIImage+EC.m in Sources */,
 				07959D821B2DC4D400F63F1F /* UILabel+EC.m in Sources */,
+				07D134B61B4842AC00B2B471 /* NSString+Check.m in Sources */,
 				07038AEC1B2F19A400C0BB00 /* NSDate+EC.m in Sources */,
 				07959D7F1B2DC4B700F63F1F /* NSString+EC.m in Sources */,
 			);

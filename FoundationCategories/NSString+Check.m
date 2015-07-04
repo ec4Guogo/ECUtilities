@@ -1,14 +1,14 @@
 //
-//  NSString+EC.m
+//  NSString+Check.m
 //  Demo
 //
-//  Created by Eric Wang on 15/6/14.
+//  Created by Eric Wang on 15/7/5.
 //  Copyright (c) 2015年 Eric. All rights reserved.
 //
 
-#import "NSString+EC.h"
+#import "NSString+Check.h"
 
-@implementation NSString (EC)
+@implementation NSString (Check)
 
 - (BOOL)isValidEmail{
     NSString *emailRegEx =

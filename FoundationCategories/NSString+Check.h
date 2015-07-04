@@ -1,14 +1,14 @@
 //
-//  NSString+EC.h
+//  NSString+Check.h
 //  Demo
 //
-//  Created by Eric Wang on 15/6/14.
+//  Created by Eric Wang on 15/7/5.
 //  Copyright (c) 2015年 Eric. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (EC)
+@interface NSString (Check)
 
 /**
  *  是否为有效的Email地址
