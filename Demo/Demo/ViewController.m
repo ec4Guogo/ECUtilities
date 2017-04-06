@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIView+CornerRadius.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [_contentView roundCornerWithRoundingCorners:UIRectCornerTopLeft | UIRectCornerTopRight radius:_contentView.frame.size.width];
 }
 
 - (void)didReceiveMemoryWarning {

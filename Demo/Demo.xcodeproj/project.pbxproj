@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		07038AE91B2F198E00C0BB00 /* UIImage+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07038AE81B2F198E00C0BB00 /* UIImage+EC.m */; };
 		07038AEC1B2F19A400C0BB00 /* NSDate+EC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07038AEB1B2F19A400C0BB00 /* NSDate+EC.m */; };
+		0758A3021E9643EC00E6B19A /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A3011E9643EC00E6B19A /* UIView+CornerRadius.m */; };
 		07959D581B2DC3A900F63F1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D571B2DC3A900F63F1F /* main.m */; };
 		07959D5B1B2DC3A900F63F1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D5A1B2DC3A900F63F1F /* AppDelegate.m */; };
 		07959D5E1B2DC3A900F63F1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07959D5D1B2DC3A900F63F1F /* ViewController.m */; };
@@ -37,6 +38,8 @@
 		07038AE81B2F198E00C0BB00 /* UIImage+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EC.m"; sourceTree = "<group>"; };
 		07038AEA1B2F19A400C0BB00 /* NSDate+EC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+EC.h"; sourceTree = "<group>"; };
 		07038AEB1B2F19A400C0BB00 /* NSDate+EC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EC.m"; sourceTree = "<group>"; };
+		0758A3001E9643EC00E6B19A /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		0758A3011E9643EC00E6B19A /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
 		07959D521B2DC3A900F63F1F /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07959D561B2DC3A900F63F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07959D571B2DC3A900F63F1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				07959D811B2DC4D400F63F1F /* UILabel+EC.m */,
 				07D134AE1B48422A00B2B471 /* UIViewController+EC.h */,
 				07D134AF1B48422A00B2B471 /* UIViewController+EC.m */,
+				0758A3001E9643EC00E6B19A /* UIView+CornerRadius.h */,
+				0758A3011E9643EC00E6B19A /* UIView+CornerRadius.m */,
 			);
 			name = UIKitCategories;
 			path = ../UIKitCategories;
@@ -272,6 +277,7 @@
 				07959D5B1B2DC3A900F63F1F /* AppDelegate.m in Sources */,
 				07959D581B2DC3A900F63F1F /* main.m in Sources */,
 				07038AE91B2F198E00C0BB00 /* UIImage+EC.m in Sources */,
+				0758A3021E9643EC00E6B19A /* UIView+CornerRadius.m in Sources */,
 				07959D821B2DC4D400F63F1F /* UILabel+EC.m in Sources */,
 				07D134B61B4842AC00B2B471 /* NSString+Check.m in Sources */,
 				07038AEC1B2F19A400C0BB00 /* NSDate+EC.m in Sources */,
